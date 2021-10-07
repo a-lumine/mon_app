@@ -1,0 +1,37 @@
+mkdir (création d'un nouveau dossier)
+rmdir (supprime le repertoire)
+ni nom.extension (création d'un nouveau fichier)
+move /mv now_rep new_nom_rep (déplacer un fichier)
+
+cd change directory
+
+../ parent directory
+./ le repertoire courant
+
+crtl+c stop le terminal
+
+git status (affiche le status des fichier a commit)
+git add nom.html (ajoute un fichier pour le commit)
+
+.gitignore (crée un fichier ignore)
+
+créer un nouveau dossier : mkdir
+new index - créer fichier : ni index.html
+renommer un dossier : move dir1 assets
+changer de repertoire : cd ./assets
+revenir au dossier parent : cd ..
+afficher le contenu du dossier : ls
+
+commandes git :
+
+git init
+git config --global user.name
+git config --global user.email
+git config --list
+
+sauvegarder modif :
+
+git status : pour voir quelles éléments sont sauvegardés ou non
+git add : pour ajouter une modif dans le stage
+git commit -m : pour faire un repository
+.gitignore : crée un fichier dans lequel on inscrit les éléments qu'on ne veut pas mettre dans le stage 
