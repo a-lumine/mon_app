@@ -1,4 +1,4 @@
-mkdir (création d'un nouveau dossier)
+ mkdir (création d'un nouveau dossier)
 rmdir (supprime le repertoire)
 ni nom.extension (création d'un nouveau fichier)
 move /mv now_rep new_nom_rep (déplacer un fichier)
